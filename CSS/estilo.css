@@ -1,8 +1,12 @@
 body {
     margin-left: 40px;
     margin-right: 40px;
+    
 }
 
+hr{
+    color: red;
+}
 .cabecalho {
     border: 5px solid red;
     border-radius: 20px;
@@ -35,5 +39,32 @@ li{
     padding-right: 10px;
 }
 .navegacao{
+
+}
+
+.nome-propriedade{
+    font-size: 2em;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    
+
+}
+
+.titulo-pagina{
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+.valor-propriedade{
+    font-size: 20pt;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
 
 }
