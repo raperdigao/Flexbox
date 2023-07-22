@@ -253,4 +253,38 @@ li{
 
 /* Flexbox - Utilizando o Align-Itens - Alinha os objetos mo Eixo Secundário*/
 
+.container-justify-align-itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
 
+}
+
+
+.container-justify-align-itens-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.container-justify-align-itens-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+}
