@@ -1,7 +1,7 @@
 body {
     margin-left: 40px;
     margin-right: 40px;
-    
+
 }
 
 
@@ -12,12 +12,12 @@ body {
 
 }
 
-.logo{
+.logo {
     padding-left: 10px;
     padding-top: 5px;
 }
 
-ul{
+ul {
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -25,35 +25,34 @@ ul{
     justify-content: end;
     align-items: center;
     gap: 100px;
-    
+
     background-color: red;
-   
+
     border-radius: 10px;
 
 
 }
 
-li{
+li {
     padding-right: 15px;
     font-size: 10pt;
     color: black;
     font-weight: 800;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
 }
 
 
-.nome-propriedade{
+.nome-propriedade {
     font-size: 2em;
     font-weight: 500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
-    
+
 
 }
 
-.titulo-pagina{
+.titulo-pagina {
     text-align: center;
     font-style: italic;
     font-size: 3em;
@@ -62,25 +61,26 @@ li{
     color: darkblue;
 }
 
-.valor-propriedade{
+.valor-propriedade {
     font-size: 20pt;
     font-weight: 800;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     text-align: center;
-    
+
 
 }
+
 /* Configuração com linhas display flex e reverso */
-.container-row{
+.container-row {
     /* Display: flex Ativa o FlexBox */
     display: flex;
 
     /* Direciona o container Flex Box */
     flex-direction: row;
-    
+
     /* gap: 50px; */
-    
+
     /* Indiferente para o flex box */
     background-color: red;
     border-radius: 20px;
@@ -92,49 +92,49 @@ li{
 
 
 
-.container-rowreverse{
+.container-rowreverse {
     display: flex;
     flex-direction: row-reverse;
-   
+
     /* gap: 50px; */
-    
+
     /* Indiferente para o flex box */
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
     height: 500px;
-    
+
 
 }
 
 /* Configuração com colunas display flex e reverso */
-.container-column{
+.container-column {
     display: flex;
     flex-direction: column;
-   
+
     /* gap: 50px; */
-    
+
     /* Indiferente para o flex box */
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
     height: 500px;
-    
+
 
 }
 
-.container-columnreverse{
+.container-columnreverse {
     display: flex;
     flex-direction: column-reverse;
-    
+
     /* gap: 50px; */
-    
+
     /* Indiferente para o flex box */
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
     height: 500px;
-    
+
 
 }
 
@@ -142,7 +142,7 @@ li{
 
 /* Configuração dos blocos */
 
-.bloco1{
+.bloco1 {
     background-color: lightskyblue;
     height: 150px;
     width: 150px;
@@ -151,13 +151,13 @@ li{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
     border: 5px solid black;
-   
-    
+
+
 
 }
 
 
-.bloco2{
+.bloco2 {
     background-color: lightcyan;
     height: 150px;
     width: 150px;
@@ -166,12 +166,12 @@ li{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
     border: 5px solid black;
-   
-    
+
+
 
 }
 
-.bloco3{
+.bloco3 {
     background-color: lightgray;
     height: 150px;
     width: 150px;
@@ -180,13 +180,18 @@ li{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
     border: 5px solid black;
-  
+
 }
+
+
+
+
+
 
 
 /* Utilizando o Justify-Content - Eixo Principal ou Primário */
 
-.container-justify-center{
+.container-justify-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -197,31 +202,31 @@ li{
 
 }
 
-.container-justify-start{
+.container-justify-start {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
-    height: 500px; 
+    height: 500px;
 }
 
-.container-justify-end{
-   
+.container-justify-end {
+
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
     height: 500px;
 }
 
-.flexend{
+.flexend {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.container-justify-between{
+.container-justify-between {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -231,7 +236,7 @@ li{
     height: 500px;
 }
 
-.container-justify-space-around{
+.container-justify-space-around {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -241,7 +246,7 @@ li{
     height: 500px;
 }
 
-.container-justify-space-evenly{
+.container-justify-space-evenly {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -253,7 +258,7 @@ li{
 
 /* Flexbox - Utilizando o Align-Itens - Alinha os objetos mo Eixo Secundário*/
 
-.container-justify-align-itens{
+.container-justify-align-itens {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -266,7 +271,7 @@ li{
 }
 
 
-.container-justify-align-itens-start{
+.container-justify-align-itens-start {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -277,7 +282,7 @@ li{
     height: 500px;
 }
 
-.container-justify-align-itens-end{
+.container-justify-align-itens-end {
     display: flex;
     flex-direction: row;
     justify-content: center;
