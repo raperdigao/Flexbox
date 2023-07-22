@@ -81,15 +81,67 @@ li{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
     
     /* Indiferente para o flex box */
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
+    height: 500px;
+
+}
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    
+    /* Indiferente para o flex box */
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
     
 
 }
+
+
+
+.container-rowreverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    
+    /* Indiferente para o flex box */
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+    
+
+}
+
+.container-columnreverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    
+    /* Indiferente para o flex box */
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+    
+
+}
+
+
 
 
 
