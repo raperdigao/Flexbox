@@ -73,7 +73,10 @@ li{
 }
 /* Configuração com linhas display flex e reverso */
 .container-row{
+    /* Display: flex Ativa o FlexBox */
     display: flex;
+
+    /* Direciona o container Flex Box */
     flex-direction: row;
     
     /* gap: 50px; */
@@ -181,7 +184,7 @@ li{
 }
 
 
-/* Utilizando o Justify-Content */
+/* Utilizando o Justify-Content - Eixo Principal ou Primário */
 
 .container-justify-center{
     display: flex;
@@ -247,3 +250,7 @@ li{
     border: 5px solid black;
     height: 500px;
 }
+
+/* Flexbox - Utilizando o Align-Itens - Alinha os objetos mo Eixo Secundário*/
+
+
