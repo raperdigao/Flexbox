@@ -67,6 +67,8 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     text-align: center;
+    padding-top: 50px;
+    
 
 
 }
@@ -496,10 +498,71 @@ li {
 
 .container-align-content{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    
+    align-content: center;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.container-align-content-flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+
+}
+
+.container-align-content-flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.container-align-content-space-between{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.container-align-content-space-around{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.container-align-content-space-evenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
     background-color: red;
     border-radius: 20px;
     border: 5px solid black;
@@ -507,4 +570,14 @@ li {
 }
 
 
-
+.container-align-content-inherit{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: inherit;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
