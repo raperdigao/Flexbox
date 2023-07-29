@@ -189,6 +189,7 @@ li {
 
 
 
+
 /* Utilizando o Justify-Content - Eixo Principal ou Primário */
 
 .container-justify-center {
@@ -292,3 +293,218 @@ li {
     border: 5px solid black;
     height: 500px;
 }
+
+
+
+
+/* Bloco sem Altura com Stretch */
+
+.container-align-itens-Stretch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.bloco1-sem-altura {
+    background-color: lightskyblue;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    border: 5px solid black;
+
+
+
+}
+
+
+.bloco2-sem-altura {
+    background-color: lightcyan;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    border: 5px solid black;
+
+
+
+}
+
+.bloco3-sem-altura {
+    background-color: lightgray;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    border: 5px solid black;
+
+}
+
+
+
+/* Bloco Align-itens: Baseline */
+
+.container-align-itens-Baseline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+.bloco1-baseline {
+    background-color: lightskyblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    border: 5px solid black;
+
+
+
+}
+
+
+
+
+.bloco2-baseline  {
+    background-color: lightcyan;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    border: 5px solid black;
+
+
+
+}
+
+.bloco3-baseline  {
+    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    border: 5px solid black;
+
+}
+
+
+/* FLEX WRAP FICAM ESPREMIDOS NO WRAP */
+
+.container-flexwrap-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+/* FLEX WRAP QUEBRA DE LINHA WRAP */
+
+.container-flexwrap-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+
+.container-wrap-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+
+/* Forma abreviada Felx Fow pega os valores do flex direction e flex flow */
+
+.nome-propriedade-flex-flow {
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+
+
+
+}
+
+/* FLEX WRAP QUEBRA DE LINHA WRAP-REVERSE*/
+
+.container-flexflow-row-nowrap{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+
+
+/********************** Align-Content *******************/
+
+.nome-propriedade-align-content {
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+
+
+
+}
+
+/* FLEX ALIGN-CONTENT*/
+
+.container-align-content{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: red;
+    border-radius: 20px;
+    border: 5px solid black;
+    height: 500px;
+}
+
+
+
